@@ -18,7 +18,7 @@ client.on('message', (msg) =>{
 client.on('ready', () => {
     console.log('Bot has connected!')
 
-    client.channels.find(x => x.name === 'test').send('Beep beep!  i\'m a jeep!');
+    client.channels.find(x => x.name === 'YOUR CHANNEL NAME').send('Beep beep!  i\'m a jeep!');
 });
 
 client.login(token);
